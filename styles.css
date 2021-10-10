@@ -1,0 +1,33 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+h2 {
+	margin-bottom: -5px;
+}
+
+#time-left {
+	margin-bottom: 5px;;
+}
+.grid {
+	width: 606px;
+	height: 606px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.square {
+	height: 200px;
+	width: 200px;
+	border: solid black 1px;
+}
+
+.mole {
+	background-image: url("mole.jpg");
+	background-size: cover;
+}
